@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: destination_db
+    description: "Source database for the destination"
+    database: destination_db
+    schema: public
+    tables:
+      - name: films
+        description: "Films table in the destination database"
+      - name: actors
+        description: "Actors table in the destination database"
+      - name: film_actors
+        description: "Film actors table in the destination database"
